@@ -1,0 +1,123 @@
+.room {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    padding-left: 43px;
+    padding-right: 43px;
+    top: 0;
+    left: 0;
+    margin: 0;
+    background-color:#2D2D2D;
+    overflow: hidden;
+}
+
+.infos {
+    position: relative;
+    width: 340px;
+    max-width: 340px;
+    min-width: 340px;
+    height: 90.87%;
+    border-radius: 10px;
+    background-color: #262626;
+    margin-right: 13px;
+}
+
+.chat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: 82.65%;
+    max-height: 82.65%;
+    border-radius: 10px;
+    background: transparent;
+    margin-left: 13px;
+}
+
+
+/* CHAT MESSAGES */
+
+.chat-messages {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    flex-wrap: wrap;
+    width: 100%;
+    height: calc(100% - 73px );
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+
+
+/* FIM CHAT MESSAGES */
+
+/* CHAT INPUTS */
+
+.chat-inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 56px;
+    min-height: 56px;
+    max-height: 56px;
+    margin-top: 17px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.chat-inputs input {
+    position: relative;
+    width: 100%;
+    height: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: transparent;
+    border: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    outline: none;
+}
+
+.chat-inputs button {
+    position: relative;
+    width: auto;
+    height: 35px;
+    margin-left: 14px;
+    margin-right: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #262626;
+    border: none;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #E6E6E6;
+    outline: none;
+}
+
+/* FIM CHAT INPUTS */

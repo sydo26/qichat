@@ -1,0 +1,131 @@
+.message {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: auto;
+    height: 37px;
+    min-height: 37px;
+}
+/* 
+.followed-messages {
+    display: inline-flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+} */
+
+.message-image {
+    position: relative;
+    width: 24px;
+    height: 100%;
+    background-color: transparent;
+}
+
+.message-image img {
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    margin-top: 12px;
+    background-color: white;
+}
+
+.message-content {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.message-header {
+    position: relative;
+    width: 100%;
+    height: 8px;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-bottom: 3px;
+}
+
+.message-header-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 8px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 18px;
+    margin-left: 3px;
+}
+
+.message-header-whitespace {
+    width: 100%;
+    min-width: 0px;
+    max-width: 100%;
+    height: 8px;
+}
+
+.message-header-date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 8px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 18px;
+    margin-right: 3px;
+}
+
+.message-header-hour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 8px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 18px;
+    margin-right: 3px;
+}
+
+.message-body {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 26px;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #E6E6E6;
+    border-radius: 10px;
+}
+
+.message-body-text {
+    height: auto;
+    min-height: 10px;
+    margin-left: 11px;
+    margin-right: 11px;
+    text-align: justify;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 18px;
+    color: #262626;
+}
